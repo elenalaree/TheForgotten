@@ -22,6 +22,10 @@ const userSchema = new Schema(
         gender: {
             type: String,
 		},
+		characters: [{
+            type: Schema.Types.ObjectId,
+            ref: 'Character' // Reference to the Character model
+        }],
 		createdAt: Date,
 		updatedAt: Date,
 	},

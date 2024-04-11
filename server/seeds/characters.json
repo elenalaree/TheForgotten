@@ -1,0 +1,68 @@
+[
+    {
+      "characterName": "Gandalf",
+      "userId":"65f6839768c51d7f2f908046",
+      "games": ["6615dba8cf7ca22231b013e1"],
+      "race": "Human",
+      "class": "",
+      "level": 10,
+      "attributes": {
+        "strength": 10,
+        "dexterity": 12,
+        "constitution": 14,
+        "intelligence": 18,
+        "wisdom": 16,
+        "charisma": 15
+      },
+      "skills": {
+        "acrobatics": 0,
+        "athletics": 1,
+        "stealth": 3,
+        "arcana": 10,
+        "history": 8,
+        "insight": 6,
+        "perception": 7,
+        "performance": 4
+      },
+      "equipment": [
+        "Staff",
+        "Robes",
+        "Spellbook"
+      ],
+      "spells": [
+        "Fireball",
+        "Lightning Bolt",
+        "Magic Missile",
+        "Shield"
+      ]
+    },
+    {
+      "characterName": "Drizzt Do'Urden",
+      "userId":"",
+      "race": "Drow",
+      "class": "Ranger",
+      "level": 12,
+      "attributes": {
+        "strength": 16,
+        "dexterity": 20,
+        "constitution": 14,
+        "intelligence": 12,
+        "wisdom": 18,
+        "charisma": 13
+      },
+      "skills": {
+        "acrobatics": 10,
+        "athletics": 8,
+        "stealth": 12,
+        "perception": 14,
+        "survival": 10
+      },
+      "equipment": [
+        "Scimitars",
+        "Leather Armor",
+        "Cloak of Elvenkind"
+      ],
+      "spells": []
+    }
+  ]
+  

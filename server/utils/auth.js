@@ -3,6 +3,13 @@ import jwt from 'jsonwebtoken';
 const secret = 'mysecretsshhhhh';
 const expiration = '2h';
 
+const validateEmail = (email) => {
+    // Regular expression for validating email format
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+};
+
+
 const authMiddleware = ({ req }) => {
     // allows token to be sent via req.body, req.query, or headers
     let token = req.body.token || req.query.token || req.headers.authorization;
@@ -34,4 +41,4 @@ const signToken = ({ username, email, _id }) => {
     return jwt.sign({ data: payload }, secret, { expiresIn: expiration });
 };
 
-export { authMiddleware, signToken };
+export { authMiddleware, signToken, validateEmail };
